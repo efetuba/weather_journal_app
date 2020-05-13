@@ -1,0 +1,142 @@
+body{
+    background-image: url("../image/weather.jpg");
+    background-repeat: no-repeat; 
+	background-size: cover; 
+    font-family: 'Pangolin', cursive;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    background:transparent;
+    color: #e6c926;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+}
+
+.holder{
+    background: rgba(59, 74, 107, .4);
+    border-radius: 10px;
+    justify-content: center;
+}
+#feel{
+    display: grid;
+    grid-template-rows: minmax(50px, auto);
+}
+
+.entry{
+    text-align: center;
+    background: rgba(59, 74, 107, .4);
+    font-family: 'Pangolin', cursive;
+}
+
+#entryHolder{
+    background: transparent;
+}
+
+#date{
+    height: 25px;
+    background:#cdecf5;
+    border-radius: 5px;
+    color: blueviolet;
+}
+
+#temp{
+    height: 25px;
+    background:#cdecf5;
+    border-radius: 5px;
+    color: blueviolet;
+}
+#weat{
+    height: 25px;
+    background:#cdecf5;
+    border-radius: 5px;
+    color: blueviolet;
+}
+#content{
+    height: 25px;
+    background:#cdecf5;
+    border-radius: 5px;
+    color: blueviolet;
+}
+
+.headline {
+    color: #e6c926;
+    justify-content: center;
+}
+.title{
+    color: #e6c926;
+    
+}
+
+label{
+    display:block;
+    font-size: 27px;
+    text-align: center;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#cdecf5;
+    color: #e6c926;
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+    border-radius: 5px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background: #3b4a6b;
+    color: #e6c926;
+    font-size: 22px;
+    font-family: 'Pangolin', cursive;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px #444;
+    margin: auto;
+}
+h1{
+    font-size: 36px;
+    justify-content: center;
+}
+
+textarea{
+    background:#cdecf5;
+    color: #e6c926;
+    font-size: 20px;
+    font-family: 'Pangolin', cursive;
+    border-radius: 5px;
+    text-align: center;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Pangolin', cursive;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Pangolin', cursive;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Pangolin', cursive;
+
+} 
